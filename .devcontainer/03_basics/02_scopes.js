@@ -36,12 +36,12 @@ if(true){
 
 // console.log(username);
 
-addOne(5)
+addOne(5)// yha function chalega qi hoisting ho rhii  // hoisting - function call kr skte initialize se pehle
 function addOne(num){
    return num+1
 }
 
-addTwo(5)
+addTwo(5) // yha function nhi chalega 
 const  addTwo = function (num){
     return num+2
 }
